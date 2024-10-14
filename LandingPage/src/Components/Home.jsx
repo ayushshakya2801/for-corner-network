@@ -5,10 +5,12 @@ import InfoContent from './InfoContent'
 import Benefits from './Benefits'
 import HappyCustomer from './HappyCustomer'
 import HealthMarket from './HealthMarket'
-import Highlights from './Highlights'
+// import Highlights from './Highlights'
 import Speaker2 from './Speaker2'
 import Faq from './Faq'
 import Footer from './Footer'
+import ContactUs from './ContactUs'
+// import DeathChart from './DeathChart'
 
 
 function Home() {
@@ -20,8 +22,10 @@ function Home() {
         <Benefits/>
         <HappyCustomer/>
         <HealthMarket/>
-        <Highlights/>
+        {/* <DeathChart/> */}
+        {/* <Highlights/> */}
         <Speaker2/>
+        <ContactUs/>
         <Faq/>
         <Footer/>
     </>
